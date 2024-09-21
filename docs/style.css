@@ -203,3 +203,21 @@ h1 .line2 {
   flex: 1 1 auto;
   text-align: right;
 }
+
+#news {
+  border: 3px solid red;
+  border-radius: 0.25em;
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  padding-top: 0.25em;
+  vertical-align: baseline;
+}
+
+.blinking {
+  animation:blink 1s ease-in-out infinite alternate;
+}
+@keyframes blink{
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
